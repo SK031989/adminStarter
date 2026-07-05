@@ -1,0 +1,40 @@
+{
+    "name": "saas/module-builder",
+    "description": "Dynamic Module Builder for Laravel 12 SaaS Platform",
+    "type": "laravel-module",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "SaaS Team",
+            "email": "dev@saas.local"
+        }
+    ],
+    "require": {
+        "php": "^8.2",
+        "laravel/framework": "^12.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^11.0",
+        "fakerphp/faker": "^1.23"
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\ModuleBuilder\\": "."
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Modules\\ModuleBuilder\\Tests\\": "tests/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Modules\\ModuleBuilder\\App\\Providers\\ModuleBuilderServiceProvider"
+            ],
+            "aliases": {}
+        }
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true
+}

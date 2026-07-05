@@ -1,0 +1,13 @@
+{
+    "name": "Auth",
+    "alias": "auth-module",
+    "description": "Enterprise Authentication Module for Laravel 12 SaaS Platform",
+    "keywords": ["saas", "auth", "authentication", "2fa", "registration"],
+    "priority": 1,
+    "providers": [
+        "Modules\\Auth\\App\\Providers\\AuthServiceProvider"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": []
+}

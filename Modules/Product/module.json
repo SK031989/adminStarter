@@ -1,0 +1,13 @@
+{
+    "name": "Product",
+    "alias": "products",
+    "description": "Product catalog management",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\Product\\App\\Providers\\ProductServiceProvider"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": []
+}

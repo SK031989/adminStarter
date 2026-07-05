@@ -1,0 +1,27 @@
+{
+    "name": "modules/dashboard",
+    "description": "SaaS Super Admin Dashboard Module",
+    "authors": [
+        {
+            "name": "Antigravity Agent",
+            "email": "agent@saas.local"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Modules\\Dashboard\\App\\Providers\\ModuleServiceProvider"
+            ]
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\Dashboard\\": "."
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Modules\\Dashboard\\Tests\\": "tests/"
+        }
+    }
+}

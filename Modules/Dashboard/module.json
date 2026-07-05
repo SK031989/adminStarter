@@ -1,0 +1,12 @@
+{
+    "name": "Dashboard",
+    "alias": "dashboard",
+    "description": "SaaS Super Admin Dashboard Module",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\Dashboard\\App\\Providers\\ModuleServiceProvider"
+    ],
+    "files": [],
+    "requires": []
+}

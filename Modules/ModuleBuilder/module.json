@@ -1,0 +1,13 @@
+{
+    "name": "ModuleBuilder",
+    "alias": "module-builder",
+    "description": "Dynamic Module Builder for Laravel 12 SaaS Platform",
+    "keywords": ["saas", "module-builder", "code-generator"],
+    "priority": 0,
+    "providers": [
+        "Modules\\ModuleBuilder\\App\\Providers\\ModuleBuilderServiceProvider"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": []
+}
