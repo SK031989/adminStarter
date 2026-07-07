@@ -135,7 +135,7 @@
         <div class="relative">
             <button id="sidebar-profile-btn" class="profile-wrapper w-full h-16 flex items-center justify-between px-6 hover:bg-slate-100 dark:hover:bg-slate-800/40 transition text-left">
                 <div class="flex items-center gap-3">
-                    <img src="https://ui-avatars.com/api/?name={{ urlencode(auth()->user()->name ?? 'Administrator') }}&background=6366f1&color=fff" alt="Avatar" class="w-9 h-9 rounded-xl shadow-inner border border-slate-200 dark:border-slate-700">
+                    <img src="https://ui-avatars.com/api/?name={{ urlencode(auth()->user()->name ?? 'Administrator') }}&background=6366f1&color=fff" alt="Avatar" class="accent-avatar w-9 h-9 rounded-xl shadow-inner border border-slate-200 dark:border-slate-700">
                     <div class="profile-details">
                         <div class="text-sm font-semibold text-slate-900 dark:text-white truncate max-w-[120px]">{{ auth()->user()->name ?? 'Administrator' }}</div>
                         <div class="text-xs text-slate-500 dark:text-slate-500 font-medium truncate max-w-[120px]">{{ auth()->user()->roles->first()?->name ?? (auth()->user()->is_admin ? 'Super Admin' : 'User') }}</div>
